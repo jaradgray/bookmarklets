@@ -1,4 +1,7 @@
-// Based on this Stack Exchange answer: https://superuser.com/a/1052944
+/**
+ * Removes the UI that is on Youtube videos.
+ * Based on this Stack Exchange answer: https://superuser.com/a/1052944
+ */
 
 // Beautified
 javascript: (function() {
