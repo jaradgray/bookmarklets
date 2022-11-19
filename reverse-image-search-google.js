@@ -5,8 +5,8 @@
 
 // Beautified
 javascript:(function() {
-    window.open("https://www.google.com/searchbyimage?site=search&sa=X&image_url="+window.location.href)
+    window.open("https://www.google.com/searchbyimage?site=search&sa=X&client=firefox-b-d&image_url=" + encodeURIComponent(window.location.href))
 })();
 
 // Minified
-javascript:(function(){window.open("https://www.google.com/searchbyimage?site=search&sa=X&image_url="+window.location.href)})();
+javascript:(function(){window.open("https://www.google.com/searchbyimage?site=search&sa=X&client=firefox-b-d&image_url="+encodeURIComponent(window.location.href))})();
